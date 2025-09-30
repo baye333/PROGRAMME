@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="event.css" />
+    <title>Conférence UAM 2025</title>
+  </head>
+  <body>
+    <header>
+      <h1>Conférence Tech UAM 2025</h1>
+      <p>Innovation, numérique et avenir universitaire</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Programme</a>
+          <a href="#">Intervenants</a>
+          <a href="#">Inscription</a>
+        </li>
+      </ul>
+      
+    </nav>
+
+    <section id="programme">
+      <h2>Programme</h2>
+      <ul>
+        <li><strong>15h00 :</strong> Ouverture officielle</li>
+        <br>
+        <li><strong>15h30 :</strong> Conférence : "Créer sur le Web"</li>
+        <br>
+        <li><strong>16h30 :</strong> Pause & échanges</li>
+        <br>
+        <li><strong>17h00 :</strong> Atelier pratique</li>
+      </ul>
+    </section>
+
+    <section id="intervenants">
+      <h2>Nos intervenants</h2>
+      <div class="speaker">
+        <img src="man-profile.jpg" alt="Intervenant 1" />
+        <div>
+          <h3>M. Ibrahima Diop</h3>
+          <p>Développeur web & Formateur Git</p>
+        </div>
+      </div>
+      <div class="speaker">
+        <img src="woman-profile.jpg" alt="Intervenante 2" />
+        <div>
+          <h3>Mme Aïssatou Sow</h3>
+          <p>Spécialiste UX/UI - Conférencière</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="inscription">
+      <h2>Formulaire d'inscription</h2>
+      <form>
+        <label for="Nom"><h3>Entrez Votre Nom:</h3></label>
+        <input id="Nom" type="text" placeholder="Nom complet" required />
+        <label for="email"><h3>Entrez Votre mail:</h3></label>
+        <input id="email" type="email" placeholder="Adresse e-mail" required />
+         <select>
+          <option value="">Votre niveau d'étude</option>
+          <option value="L1">L1</option>
+          <option value="L2">L2</option>
+          <option value="L3">L3</option>
+          <option value="M1">M1</option>
+          <option value="M2">M2</option>
+        </select> 
+        <textarea
+          rows="4"
+          placeholder="Pourquoi souhaitez-vous participer ?"
+        ></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 by Lahad — Tous droits réservés</p>
+    </footer>
+  </body>
+</html>
