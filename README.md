@@ -21,9 +21,10 @@ ce projet est disponible sur netlify sous ce lien https://interesting-prog.netli
 
 ## 📂 Contenu typique
 
-- `event.html`
-- `event.css`
+- `index.html`
+- `style.css`
 - logo + images de conférenciers
+- un formulaire de participation
 
 ## ➕ Bonus possible
 
