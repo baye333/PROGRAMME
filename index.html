@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Conférence UAM 2025</title>
+    <title>Conférence UAM</title>
   </head>
   <body>
     <header>
@@ -21,9 +21,9 @@
     <nav>
       <ul>
         <li>
-          <a href="#">Programme</a>
-          <a href="#">Intervenants</a>
-          <a href="#">Inscription</a>
+          <a href="#programme">Programme</a>
+          <a href="#intervenants">Intervenants</a>
+          <a href="#inscription">Inscription</a>
         </li>
       </ul>
       
@@ -61,6 +61,8 @@
     </section>
 
     <section id="inscription">
+       
+        <span id="text"></span>
       <h2>Formulaire d'inscription</h2>
       <form>
         <label for="Nom"><h3>Entrez Votre Nom:</h3></label>
@@ -79,12 +81,17 @@
           rows="4"
           placeholder="Pourquoi souhaitez-vous participer ?"
         ></textarea>
-        <button type="submit">Envoyer</button>
+        <button class="btn" onclick="getValue()"; type="submit">Envoyer</button>
+
+        
       </form>
+     
+
     </section>
 
     <footer>
       <p>&copy; 2025 by Lahad — Tous droits réservés</p>
     </footer>
+  <script src="app.js"></script>  
   </body>
 </html>
