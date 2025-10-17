@@ -13,6 +13,8 @@ Une page HTML dédiée à un événement : conférence, hackathon ou atelier.
 
 ## 🚀 Mise en ligne
 
+ce projet est disponible sur netlify sous ce lien https://interesting-prog.netlify.app/
+
 ## 🔧 Technologies
 
 - HTML structuré
@@ -26,6 +28,7 @@ Une page HTML dédiée à un événement : conférence, hackathon ou atelier.
 - `style.css`
 - `app.js`
 - logo + images de conférenciers
+- un formulaire de participation
 
 ## ➕ Bonus possible
 
