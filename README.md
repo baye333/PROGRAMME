@@ -13,7 +13,7 @@ Une page HTML dédiée à un événement : conférence, hackathon ou atelier.
 
 ## 🚀 Mise en ligne
 
-ce projet est disponible sur netlify sous ce lien https://interesting-prog.netlify.app/
+ce projet est disponible sur netlify sous ce lien [👉Lien vers netlify]https://interesting-prog.netlify.app/
 
 ## 🔧 Technologies
 
